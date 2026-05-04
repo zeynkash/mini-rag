@@ -1,2 +1,5 @@
 # mini-rag
 A production-ready Retrieval-Augmented Generation (RAG) application built with Python and LangChain. This project focuses on bridging the gap between AI research in Jupyter Notebooks and scalable software engineering.
+
+```bash
+$ uvicorn main:app --reload --host 0.0.0.0 --port  5000
